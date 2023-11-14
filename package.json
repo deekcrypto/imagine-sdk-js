@@ -15,6 +15,7 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "@types/http-errors": "^2.0.1",
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
     "eslint": "^8.49.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.1.0",
@@ -32,7 +33,7 @@
   },
   "exports": {
     "require": "./dist/index.js",
-    "default": "./dist/index.modern.js"
+    "default": "./dist/index.modern.mjs"
   },
   "files": [
     "dist"
